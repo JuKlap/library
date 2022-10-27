@@ -24,7 +24,7 @@ import java.util.Set;
 @Entity
 @Getter
 @Setter
-@Table(name = "Authors")
+@Table(name = "authors")
 public class AuthorDAO {
 
     @Id
