@@ -44,7 +44,8 @@ public class AuthorDAO {
     @Column(name = "surname")
     private String surname;
 
-    public AuthorDAO(){
+    public AuthorDAO(Long author){
+
     }
 
 }
