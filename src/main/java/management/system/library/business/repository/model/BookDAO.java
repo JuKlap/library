@@ -47,8 +47,7 @@ public class BookDAO {
     @Column(name = "isbn")
     private String isbn;
 
-    public BookDAO(Long book){
-
+    public BookDAO(){
     }
 
 }
